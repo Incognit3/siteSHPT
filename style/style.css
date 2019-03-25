@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+}
+
+div {
+	border:1px solid red;
+}
+
+#logo{
+	height: 150px; 
+	background-color: #2a7188; 
+}
+
+#logo>img{
+	margin: auto;
+}
+
+#bl-menu{
+	background-color: #0d77af;
+}
+
+#bl-menu h2{
+	color:white;
+}
+
+#bl-menu p{
+	color:white;
+}
+
+#bl-menu div{
+	height: 50px;
+	float: left;
+}
+
+#block2 input{
+ 	width: 100%;
+}
+
+.slider{
+	height: 400px;
+}
+
+#svyaz{
+	background-color: #07597b;
+}
