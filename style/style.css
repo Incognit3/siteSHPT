@@ -2,9 +2,9 @@
 	margin: 0;
 }
 
-div {
+/*div {
 	border:1px solid red;
-}
+}*/
 
 #logo{
 	height: 150px; 
@@ -79,6 +79,14 @@ div {
 	text-align: center;
 }
 
+#block3 h5:hover {
+	border-bottom: 1px solid red; 
+}
+
+#block3 a {
+	color: white; 
+	text-decoration: none;}
+
 #WhiteCube{
 	height: 250px;
 	background-color: white; 
@@ -96,3 +104,5 @@ div {
 	height: 150px;
 	background-color: #07597b;
 }
+
+
