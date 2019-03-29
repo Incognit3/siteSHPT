@@ -1,3 +1,14 @@
+/*   
+Theme Name: SHPTsite
+Theme URI: http://wordpress/
+Description: краткое-описание-темы
+Author: Skorpzmey and Incognit
+Version: 1.0
+
+.
+*/
+
+
 *{
 	margin: 0;
 }
@@ -47,6 +58,18 @@
 
 #svyaz{
 	background-color: #07597b;
+}
+#priem{
+	cursor: pointer;
+}
+
+#priem form{
+	display: none;
+}
+
+#priem.open form{
+	display: block;
+	z-index: 555;
 }
 
 #director{

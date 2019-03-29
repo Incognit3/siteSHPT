@@ -1,12 +1,12 @@
 $(document).ready(function(){
       $('.slider').bxSlider();
-
-      responsive: false;
+      adaptiveHeight: false;
+      touchEnabled: true;
+      pager: false;
     });
 
-// var menuElem = document.getElementById('menu');
+var menuElem = document.getElementById('priem');
 
-// menuElem.onclick = function() {
-//       menuElem.classList.toggle('open');
-// };
-
+menuElem.onclick = function() {
+      menuElem.classList.toggle('open');
+};
