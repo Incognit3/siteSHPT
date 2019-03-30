@@ -9,50 +9,52 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 	<link rel="stylesheet" href="fontawesome-free-5.8.1-web/css/all.min.css">
 </head>
-<body style="background-color:#206876;">
-
+<body style="background-color:	#221E1D;">
+      <!------------------------------- Лого и name ------------------------------>
 	<header>
 	<div class="container">
 		<div class="row ">
 			<div class="col-xl-4" id="logo">
 				<img src="img/logo.png" alt="">
 			</div>	
-			<div class="col-xl-8">
-				<h2>Шумерлнский политехнический техникум</h2>
-				<p>Министерства образования и молодежной политики Чувашской Республики.</p>	
+			<div class="col-xl-8" id="bl-menu">
+				<h2 style="color:black">Шумерлинский политехнический техникум</h2>
+				<h5 style="color:black">Министерства образования и молодежной политики Чувашской Республики.</h5>	
 			</div>
 		</div>
 	</div>
 	</header>
 
-	<!-- director -->
+	<!------------------------------- Директор ------------------------------>
 
 	<div class="container">
 		<div class="row" id="block2">
 			<div class="col-xl-4" id="bl2-cont1">
-				<input type="search">
-				<input type="search">
-
-				<div class="col-xl-10 offset-xl-1" id="director">
+				
+				<div class="col-xl-11 offset-xl-1" id="director">
 					<img src="img/director.jpg" alt="" width="85%">
 					<br>
 					<h5>Ларина Татьяна Александровна</h5>
 				</div>
 			</div>
 
-			<!-- slider -->
+		<!------------------------------- Слайдер ------------------------------>
 
 			<div class="col-xl-5" style="height: 400px">
-				 <!--  --><div class="slider" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 390px;">
-    				<img src="img/director.jpg" alt="" style="height: 390px;">
-    				<img src="img/director.jpg" alt="" style="height: 390px;">
+					<div class="slider" style="height: 100px;">
+    				<img src="img/PhotoSHPT.jpg" alt="" style="height: 390px;">
+    				<img src="img/PhotoSHPT2.jpg" alt="" style="height: 390px;">
+    				<img src="img/SHPTact.jpg" alt="" style="height: 390px;">
   				</div>
 			</div>
+
+			<!------------------------------- Связь ------------------------------>
+
 			<div class="col-xl-3 " id="svyaz">
 				<div class="col-xl-10 offset-xl-1" id="priem">	
 					<h4 style="color:white">Электронная 
 					приемная</h4>
+					<div id="formasv">
 					<form action="#" method="post" id="form">
 						<div class="input">
   							<input type="text" class="form-control" placeholder="Name" name="name" id="input">
@@ -61,6 +63,7 @@
 						</div>
 							<input type="submit" id="form-submit" class="btn btn-warning btn-lg pull-right " value="Send message" class="full2" name="submit"></input>
 					</form>
+				</div>
 				</div>
 				<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
 
@@ -74,7 +77,7 @@
 		</div>
 	</div>
 
-	<!-- горизонтальное меню -->
+	<!------------------------------- Вертикальное меню ------------------------------>
 
 	<div class="container">
 		<div class="row" id="block3">
@@ -88,75 +91,111 @@
 				<h5><a href="#">Реквизиты</a></h5>
 				<h5><a href="#">Трудоустройство</a></h5>
 				<h5><a href="#">Полезные ссылки</a></h5>
-				<br>
 				<div class="col-xl-10 offset-xl-1" id="menu">
 					<div id="menu1">
-						<h5>Меню</h5>
+						<h5>О техникуме<i class="far fa-hand-pointer" style="margin-left: 5px"></i></h5>
 						<ul>
 							<div>
-								<h5><a href="#">Полезные ссылки</a></h5>
-								<h5><a href="#">Трудоустройство</a></h5>
+								<h5><a href="#">75 лет профессионально-техническому образованию в Чувашской Республике</a></h5>
+								<h5><a href="#">Программа модернизации</a></h5>
+								<h5><a href="#">Безопасный интернет</a></h5>
+								<h5><a href="#">Модернизация проф образования, ФГОС</a></h5>
+								<h5><a href="#">Доступная среда</a></h5>
+								<h5><a href="#">Публичный отчет</a></h5>
+								<h5><a href="#">Наши реквизиты</a></h5>
 							</div>
 						</ul>
 					</div>
 					<div id="menu2">
-						<h5>Меню</h5>
-						<ul>
+						<h5>Мероприятия и события<i class="far fa-hand-pointer" style="margin-left: 5px"></i></h5>
+						<ul id="menulist">
 							<div>
-								<h5><a href="#">Полезные ссылки</a></h5>
-								<h5><a href="#">Трудоустройство</a></h5>
+								<h5><a href="#">Молодые проффесианалы WorldSkils Russia</a></h5>
+								<h5><a href="#">Волонтерское движение "Добролюбы"</a></h5>
+								<h5><a href="#">Месячник оборонно-массовой и спортивной работы</a></h5>
+								<h5><a href="#">Готов к труду и обороне</a></h5>
+								<h5><a href="#">День народного единства</a></h5>
+								<h5><a href="#">Месячник по охране труда</a></h5>
+
 							</div>
 						</ul>
 					</div>	
 					<div id="menu3">
-						<h5>Меню</h5>
+						<h5>Полезное студентам<i class="far fa-hand-pointer" style="margin-left: 5px"></i></h5>
 						<ul>
 							<div>
-								<h5><a href="#">Полезные ссылки</a></h5>
-								<h5><a href="#">Трудоустройство</a></h5>
+								<h5><a href="#">Профилактика терроризма</a></h5>
+								<h5><a href="#">Самый классный классный</a></h5>
+								<h5><a href="#">Студенческое самоуправление</a></h5>
+								<h5><a href="#">Воспитательная работа</a></h5>
+								<h5><a href="#">Библиотека</a></h5>
+								<h5><a href="#">Здоровые дети - здоровая семья</a></h5>
+								<h5><a href="#">Безопасность на новый год</a></h5>
 							</div>
 						</ul>
 					</div>	
 					<div id="menu4">
-						<h5>Меню</h5>
+						<h5>Про преподавателей<i class="far fa-hand-pointer" style="margin-left: 5px"></i></h5>
 						<ul>
 							<div>
-								<h5><a href="#">Полезные ссылки</a></h5>
-								<h5><a href="#">Трудоустройство</a></h5>
+								<h5><a href="#">Сайты педагогов</a></h5>
+								<h5><a href="#">Мастер года</a></h5>
+								<h5><a href="#">Самый классный классный</a></h5>
 							</div>
 						</ul>
 					</div>		
 				</div>
 			</div>
-			
+			<!------------------------------- Новочти ------------------------------>
 			<div class="col-xl-6" id="news">
-				<h2>Новости ШПТ <i class="far fa-newspaper"></i></h2>
+				<h2 style="color:white">Новости ШПТ <i style="color:white" class="far fa-newspaper"></i></h2>
 			</div>
-
+			<!------------------------------- Банеры ------------------------------>
 			<div class="col-xl-3" id="banners">
 				 <div class="slider" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner1.png" alt="" style="height: 100px;">
+    				<img src="img/bannner2.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner3.png" alt="" style="height: 100px;">
+    				<img src="img/banner4.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner5.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner6.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner7.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner8.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner9.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner10.jpg" alt="" style="height: 100px;">
   				</div>
   				<div class="slider" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner11.png" alt="" style="height: 100px;">
+    				<img src="img/banner12.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner13.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner14.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner15.png" alt="" style="height: 100px;">
+    				<img src="img/banner16.png" alt="" style="height: 100px;">
+    				<img src="img/banner17.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner18.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner19.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner20.jpg" alt="" style="height: 100px;">
   				</div>
   				<div class="slider" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
-    				<img src="img/director.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner21.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner22.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner23.png" alt="" style="height: 100px;">
+    				<img src="img/banner24.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner25.png" alt="" style="height: 100px;">
+    				<img src="img/banner26.png" alt="" style="height: 100px;">
+    				<img src="img/banner27.png" alt="" style="height: 100px;">
+    				<img src="img/banner28.jpg" alt="" style="height: 100px;">
+    				<img src="img/banner29.png" alt="" style="height: 100px;">
   				</div>
 
 			</div>
 		</div>
 	</div>
+	<!------------------------------- Footer ------------------------------>
 	<footer>
 		<div class="container">
 			<div class="row" id="footer">
-				<p style="color:white">Copyright © </p>
+				<p style="color:black">Copyright © </p>
 			</div>
 		</div>
 	</footer>
