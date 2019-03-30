@@ -30,6 +30,89 @@ Version: 1.0
 	background-color: #0d77af;
 }
 
+#menu1,#menu2,#menu3,#menu4{
+	height: 45px;
+	border:2px solid red;
+}
+
+#menu ul{
+	margin: 0;
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+    cursor: pointer;
+    z-index: 555;
+}
+#menu h5{
+	cursor: pointer;
+}
+
+#menu1.open ul{
+	display: block;
+	z-index: 555;
+	margin-top: -40px;
+}
+#menu2.open ul{
+	display: block;
+	z-index: 555;
+	margin-top: -40px;
+}
+#menu3.open ul{
+	display: block;
+	z-index: 555;
+	margin-top: -40px;
+}
+#menu4.open ul{
+	display: block;
+	z-index: 555;
+	margin-top: -40px;
+}
+
+#menu1 ul div{
+	height: 100%;
+	width: 200px;
+	background-color: red;
+	text-align: center;
+	margin: 5px;
+	margin-left: 155px;
+	z-index: 555;
+	position: absolute;
+}
+#menu2 ul div{
+	height: 100%;
+	width: 200px;
+	background-color: yellow;
+	text-align: center;
+	margin: 5px;
+	margin-left: 155px;
+	z-index: 555;
+	position: absolute;
+}
+
+#menu3 ul div{
+	height: 100%;
+	width: 200px;
+	background-color: purple;
+	text-align: center;
+	margin: 5px;
+	margin-left: 155px;
+	z-index: 555;
+	position: absolute;
+}
+
+#menu4 ul div{
+	height: 100%;
+	width: 200px;
+	background-color: green;
+	text-align: center;
+	margin: 5px;
+	margin-left: 155px;
+	z-index: 555;
+	position: absolute;
+}
+
+
+
 #bl-menu h2{
 	color:white;
 }
@@ -54,6 +137,7 @@ Version: 1.0
 
 .slider{
 	height: 400px;
+	z-index: 1;
 }
 
 #svyaz{
@@ -116,7 +200,8 @@ Version: 1.0
 }
 
 #news{
-	background-color: #e3e5e6; 
+	background-color: #e3e5e6;
+	z-index: 0; 
 }
 
 #banners{
@@ -124,7 +209,7 @@ Version: 1.0
 }
 
 #footer{
-	height: 150px;
+	height: 50px;
 	background-color: #07597b;
 }
 
