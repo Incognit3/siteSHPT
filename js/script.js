@@ -6,10 +6,13 @@ $(document).ready(function(){
     });
 
 var form = document.getElementById('priem');
-var formasv = document.getElementById('form');
+var formasv = document.getElementById('formasv');
 
 form.onclick = function() {
-     formasv.classList.toggle('open');
+     form.classList.add('open');
+};
+formasv.ondblclick = function() {
+     form.classList.remove('open');
 };
 
 
@@ -19,15 +22,27 @@ var menulist = document.getElementById('menulist');
 var menu3 = document.getElementById('menu3');
 var menu4 = document.getElementById('menu4');
 
-menu1.onclick = function() {
+menu1.onmouseover = function() {
       menu1.classList.toggle('open');
 };
-menu2.onclick = function() {
+ menu1.onmouseout = function() {
+      menu1.classList.remove('open');
+};
+menu2.onmouseover = function() {
       menulist.classList.toggle('open');
 };
-menu3.onclick = function() {
+ menu2.onmouseout = function() {
+      menulist.classList.remove('open');
+};
+menu3.onmouseover = function() {
       menu3.classList.toggle('open');
 };
-menu4.onclick = function() {
+ menu3.onmouseout = function() {
+      menu3.classList.remove('open');
+};
+menu4.onmouseover = function() {
       menu4.classList.toggle('open');
+};
+ menu4.onmouseout = function() {
+      menu4.classList.remove('open');
 };

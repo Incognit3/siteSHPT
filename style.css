@@ -74,7 +74,7 @@ Version: 1.0
 }
 
 #menu1 ul div{
-	height: 400px;
+	height: 420px;
 	width: 200px;
 	background-color: #206676;
 	text-align: center;
@@ -154,15 +154,21 @@ Version: 1.0
 	cursor: pointer;
 }
 
-#fromasv from{
+#priem form{
 	display: none;
-}
-
-#form.open{
-	display: block;
 	z-index: 555;
 	margin-top: -50px;
 	margin-left: -250px;
+}
+
+
+#priem.open form{
+	display: block;
+	z-index: 556;
+	margin-top: 50px;
+	margin-left: -10px;
+	width: 200px;
+	height: 400px;
 }
 
 #director{
@@ -206,8 +212,23 @@ Version: 1.0
 
 #news{
 	background-color: #242421;
-	z-index: 0; 
+	z-index: 0;
+	text-align: center;
 }
+
+#news h4 {
+	color: white;
+	text-align: left;
+	margin-left: 145px;
+	font-family: Cuprum, sans-serif; }
+
+#student1 {
+	margin-left: -410px; }
+
+#student2 {
+	float: left;
+	margin-left: 10px;
+	margin-top: -10px; }
 
 #banners{
 	background-color:#DFD297;
