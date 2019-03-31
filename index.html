@@ -10,16 +10,18 @@
 	<link rel="stylesheet" href="fontawesome-free-5.8.1-web/css/all.min.css">
 </head>
 <body style="background-color:	#221E1D;">
+
       <!------------------------------- Лого и name ------------------------------>
+
 	<header>
 	<div class="container">
 		<div class="row ">
 			<div class="col-xl-4" id="logo">
-				<img src="img/logo.png" alt="">
+				<img src="img/logo.png" alt="#">
 			</div>	
 			<div class="col-xl-8" id="bl-menu">
-				<h2 style="color:black">Шумерлинский политехнический техникум</h2>
-				<h5 style="color:black">Министерства образования и молодежной политики Чувашской Республики.</h5>	
+				<h2 style="color: black; font-family: Cuprum, Arial, Helvetica, sans-serif;" >Шумерлинский политехнический техникум</h2>
+				<h5 style="color: black; font-family: Cuprum, Arial, Helvetica, sans-serif; ">Министерства образования и молодежной политики Чувашской Республики.</h5>	
 			</div>
 		</div>
 	</div>
@@ -30,11 +32,15 @@
 	<div class="container">
 		<div class="row" id="block2">
 			<div class="col-xl-4" id="bl2-cont1">
-				
+				<form>
+  					<input type="text" placeholder="Искать здесь...">
+  					<button type="submit"></button>
+				</form>
 				<div class="col-xl-11 offset-xl-1" id="director">
+					<br>
 					<img src="img/director.jpg" alt="" width="85%">
 					<br>
-					<h5>Ларина Татьяна Александровна</h5>
+					<h6>Ларина Татьяна Александровна</h6>
 				</div>
 			</div>
 
@@ -55,27 +61,44 @@
 					<h4 style="color:white">Электронная 
 					приемная</h4>
 					<div id="formasv">
-					<form action="php/process.php" method="post" id="form">
+					<form action="#" method="post" id="form">
 						<div class="input">
   							<input type="text" class="form-control" placeholder="Name" name="name" id="input">
   							<input type="email" class="form-control" placeholder="Email" name="email" id="input">
- 							<textarea type="text"  class="form-control" placeholder="Message" name="mess" id="input" cols="20" rows="5"></textarea>
+ 							<textarea type="text"  class="form-control" placeholder="Message" name="mess" id="input" cols="30" rows="10"></textarea>
 						</div>
 							<input type="submit" id="form-submit" class="btn btn-warning btn-lg pull-right " value="Send message" class="full2" name="submit"></input>
 					</form>
 				</div>
 				</div>
-				<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
-
+				
 				<!-- VK Widget -->
 
-				<div id="vk_groups"></div>
+				<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+		
+				<div id="vk_groups" style="margin-left: 26px;"></div>
 					<script type="text/javascript">
-						VK.Widgets.Group("vk_groups", {mode: 3}, 20003922);
+							VK.Widgets.Group("vk_groups", {mode: 3}, 56457191);
 					</script>
+
+					<!-- Put this script tag to the <head> of your page -->
+					
+					<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+					<script type="text/javascript">
+  						VK.init({apiId: API_ID, onlyWidgets: true});
+					</script>
+
+					<!-- Put this div tag to the place, where the Like block will be -->
+					
+					<div id="vk_like"></div>
+					<script type="text/javascript">
+						
+					VK.Widgets.Like("vk_like", {type: "button", height: 20});
+					
+					</script>
+				</div>
 			</div>
-		</div>
-	</div>
 
 	<!------------------------------- Вертикальное меню ------------------------------>
 
@@ -146,26 +169,30 @@
 					</div>		
 				</div>
 			</div>
+
 			<!------------------------------- Новочти ------------------------------>
 			<div class="col-xl-6" id="news">
+				
 				<h2 style="color:white">Новости ШПТ <i style="color:white" class="far fa-newspaper"></i></h2>
 				<br>
 				<h5 style="float: left;"><a href="#" style="color: red;"> 16.03.2019 </a></h5><h4><b>Живи и дай жить другим!</b></h4>
-				
 
 				<div><img src="img/p96_16032019.png" alt="#" id="student1"></div>
-				<p style=" color: white; text-align: center; width:70%; margin-left: 25%; margin-top: -20%">
-				 15 марта 2019 года студенты первого и второго курсов Шумерлинского политехнического техникума вместе с библиотекарем Л.В. Бритвиной приняли участие в мероприятии «Живи и дай жить другим!», в  рамках Общероссийской антинаркотической акции «Сообщи, где торгуют смертью».</p>
 
-				<h5 style="float: left; margin-top: 15px;"><a href="#" style="color: red;"> 15.03.2019 </a></h5><h4><b>Студенческая весна</b></h4>
-				<br>
+				<h5 style="float: left; margin-top: 75px;"><a href="#" style="color: red;"> 15.03.2019 </a></h5>
+				<div id="#student3" style="margin-top: 75px;"><h4><b>Студенческая весна!</b></h4></div>
 	
 				<div><img src="img/p96_img_4009.png" alt="#" id="student2"></div>
-				<p style="color:white; text-align: center; width:70%; margin-left: 25%;">
-				  В Шумерлинском политехническом техникуме Минобразования Чувашии прошел 1 этап фестиваля «Студенческая весна».  В Фестивале приняли участие все учебные группы техникума. </p>
+
+				<a href="#" style="float: left; margin-top: 175px; margin-left: -110px;">Больше новостей</a>
+				<a href="#" style="float: right; margin-top: 174px;">Архив новостей</a>
+
 			</div>
+
 			<!------------------------------- Банеры ------------------------------>
+
 			<div class="col-xl-3" id="banners">
+				<br>
 				 <div class="slider" style="height: 100px;">
     				<img src="img/banner1.png" alt="" style="height: 100px;">
     				<img src="img/bannner2.jpg" alt="" style="height: 100px;">
@@ -205,13 +232,22 @@
 			</div>
 		</div>
 	</div>
+
 	<!------------------------------- Footer ------------------------------>
+
 	<footer>
-		<div class="container">
-			<div class="row" id="footer">
-				<p style="color:black">Copyright © </p>
-			</div>
-		</div>
+    	<footer id="myFooter">
+     		<iframe id="map-container" frameborder="0" style="border: 0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2259.178825850874!2d46.38805875128147!3d55.5118335179229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415b20ea60ab9805%3A0x58443b41226f8019!2z0KjRg9C80LXRgNC70LjQvdGB0LrQuNC5INCf0L7Qu9C40YLQtdGF0L3QuNGH0LXRgdC60LjQuSDQotC10YXQvdC40LrRg9C8!5e0!3m2!1sru!2sru!4v1554037063771!5m2!1sru!2sru">
+     		</iframe>
+		
+		<div class="social-networks">
+     		<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+     		<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+     		<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+ 		</div>
+  		<div class="footer-copyright">
+            <p>© 2019 Copyright Text </p>
+        </div>
 	</footer>
 
 <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
